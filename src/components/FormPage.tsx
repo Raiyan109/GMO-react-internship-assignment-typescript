@@ -17,7 +17,7 @@ const FormPage: React.FC = () => {
 
         if (!name && !phoneNumber && !email) {
             // redirect('/');
-            alert('You must enter your details first')
+            alert('You must enter your details first before accessing the page')
         }
     };
 
@@ -52,7 +52,7 @@ const FormPage: React.FC = () => {
 
                 </FormControl>
 
-                <Button variant="contained" onClick={handleSubmit}>Contained</Button>
+                <Button variant="contained" onClick={handleSubmit}>Submit</Button>
             </div>
         </div>
     );
