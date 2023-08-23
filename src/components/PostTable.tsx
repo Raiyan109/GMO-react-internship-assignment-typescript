@@ -29,8 +29,6 @@ const PostTable: React.FC = () => {
             <DataGrid
                 rows={posts}
                 columns={columns}
-                pageSize={10}
-                disableSelectionOnClick
             />
         </div>
     );
